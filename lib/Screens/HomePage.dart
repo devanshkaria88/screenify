@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
                   Navigator.pushNamed(context, 'loginscreens');
                 },
                 child: HomePageCard(
-                  childImage: AssetImage('assets/images/home.jpg'),
+                  childImage: AssetImage('assets/images/login.jpg'),
                   CardTitle: 'Login Screens',
                 ),
               ),
@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
                   Navigator.pushNamed(context, 'profilescreens');
                 },
                 child: HomePageCard(
-                  childImage: AssetImage('assets/images/home.jpg'),
+                  childImage: AssetImage('assets/images/profile.jpg'),
                   CardTitle: 'Profile Screens',
                 ),
               ),
@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                   Navigator.pushNamed(context, 'drawerscreen');
                 },
                 child: HomePageCard(
-                  childImage: AssetImage('assets/images/home.jpg'),
+                  childImage: AssetImage('assets/images/drawer.jpg'),
                   CardTitle: 'Drawers',
                 ),
               ),
@@ -53,7 +53,7 @@ class HomePage extends StatelessWidget {
                   Navigator.pushNamed(context, 'bottomsheetsscreen');
                 },
                 child: HomePageCard(
-                  childImage: AssetImage('assets/images/home.jpg'),
+                  childImage: AssetImage('assets/images/sheets.png'),
                   CardTitle: 'BottomSheets',
                 ),
               ),

@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:screenify/widgets/ScreenListCard.dart';
+import 'package:screenify/Screens/DummyPage.dart';
+
+import 'fitnessappdark/fitnessappdark.dart';
+import 'fitnessapp/fitnessapp.dart';
+
 
 class ScreensList extends StatelessWidget {
   String ListName;
@@ -28,13 +33,13 @@ class ScreensList extends StatelessWidget {
                     ),
                   ),
                 ),
-                ScreenListCard(),
-                ScreenListCard(),
-                ScreenListCard(),
-                ScreenListCard(),
-                ScreenListCard(),
-                ScreenListCard(),
-                ScreenListCard(),
+                ScreenListCard(LeftPage: FitnessApp(), RightPage: FitnessAppDark(), LeftPageName: 'Huawei style Fitness App', RightPageName: 'Huawei style Fitness App (Dark)', leftscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),rightscreenprev: AssetImage('assets/images/homescreens/fitnessapp/titledark.jpeg'),),
+                ScreenListCard(LeftPage: LeftPage(), RightPage: RightPage(), LeftPageName: 'Left Page', RightPageName: 'Right Page', leftscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),rightscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),),
+                ScreenListCard(LeftPage: LeftPage(), RightPage: RightPage(), LeftPageName: 'Left Page', RightPageName: 'Right Page', leftscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),rightscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),),
+                ScreenListCard(LeftPage: LeftPage(), RightPage: RightPage(), LeftPageName: 'Left Page', RightPageName: 'Right Page', leftscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),rightscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),),
+                ScreenListCard(LeftPage: LeftPage(), RightPage: RightPage(), LeftPageName: 'Left Page', RightPageName: 'Right Page', leftscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),rightscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),),
+                ScreenListCard(LeftPage: LeftPage(), RightPage: RightPage(), LeftPageName: 'Left Page', RightPageName: 'Right Page', leftscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),rightscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),),
+                ScreenListCard(LeftPage: LeftPage(), RightPage: RightPage(), LeftPageName: 'Left Page', RightPageName: 'Right Page', leftscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),rightscreenprev: AssetImage('assets/images/homescreens/fitnessapp/title.jpeg'),),
               ],
             ),
           ),
