@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:screenify/Screens/HomeScreens/HomeScreenList.dart';
 import 'Screens/HomePage.dart';
+import 'Screens/HomeScreens/homescreenslist.dart';
+import 'Screens/LoginScreens/loginscreenslist.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -10,11 +11,11 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       title: 'Screenify',
       routes: {
-        'homescreens' : (context) => ScreensList(ListName: 'Home Screens'),
-        'loginscreens' : (context) => ScreensList(ListName: 'Login Screens'),
-        'profilescreens' : (context) => ScreensList(ListName: 'Profile Screens'),
-        'drawerscreen' : (context) => ScreensList(ListName: 'App Drawers'),
-        'bottomsheetsscreen' : (context) => ScreensList(ListName: 'Bottom Sheets'),
+        'homescreens' : (context) => HomeScreensList(ListName: 'Home Screens'),
+        'loginscreens' : (context) => LoginScreensList(ListName: 'Login Screens'),
+        'profilescreens' : (context) => HomeScreensList(ListName: 'Profile Screens'),
+        'drawerscreen' : (context) => HomeScreensList(ListName: 'App Drawers'),
+        'bottomsheetsscreen' : (context) => HomeScreensList(ListName: 'Bottom Sheets'),
       },
     );
   }

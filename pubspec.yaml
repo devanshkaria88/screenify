@@ -26,7 +26,9 @@ dependencies:
 
   cupertino_icons: ^0.1.3
   font_awesome_flutter: ^8.8.1
+  google_fonts: ^1.1.0
   line_awesome_flutter: ^1.0.1
+  path_provider: ^1.6.18
   percent_indicator: ^2.1.5
   marquee: ^1.5.2
 
@@ -44,16 +46,21 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
-  # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
-
-
-  # ................Add HomeScrren Assets here....................
-
     - assets/images/homescreens/
+    - assets/images/loginscreens/
+
+#      <--------------------------  Add HomeScreen related sub-folders here --------------------------->
+
     - assets/images/homescreens/fitnessapp/
+    - assets/images/homescreens/muziko/
+
+
+
+#      <--------------------------  Add HomeScreen related sub-folders here --------------------------->
+
+    - assets/images/loginscreens/muziko/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
