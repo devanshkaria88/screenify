@@ -58,10 +58,13 @@ flutter:
 
 
 
-#      <--------------------------  Add HomeScreen related sub-folders here --------------------------->
+#      <--------------------------  Add LoginScreen related sub-folders here --------------------------->
 
     - assets/images/loginscreens/muziko/
 
+#      <--------------------------  Add ProfileScreen related sub-folders here --------------------------->
+
+    - assets/images/profilescreens/designerportfolio/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

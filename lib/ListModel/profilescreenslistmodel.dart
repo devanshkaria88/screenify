@@ -1,8 +1,6 @@
-import 'package:screenify/Screens/LoginScreens/muziko/muziko.dart';
-import 'package:screenify/Screens/ProfileScreens/DesignerProfile/DesignerProfile.dart';
+import 'package:screenify/Screens/ProfileScreens/DesignerPortfolio/DesignerPortfolio.dart';
 import 'package:screenify/constants.dart';
 
-
 List<Map<String, dynamic>> ProfileScreens = [
-
+  {'screen': DesignerPortfolio(), 'name': "Designer Portfolio", 'image': '$profilescreens/designerportfolio/thumb.jpg'}
 ];
