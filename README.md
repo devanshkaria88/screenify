@@ -26,7 +26,7 @@ One can contribute to this repo by following means..
 
 ### Step 1)
 
-Convert the desingn into a flutter code... following the best practices of writing a flutter code will increase the chances of getting the pull request merged quickly.
+Convert the design into a flutter code... following the best practices of writing a flutter code will increase the chances of getting the pull request merged quickly.
 
 ### Step 2)
 
