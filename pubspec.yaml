@@ -31,6 +31,8 @@ dependencies:
   path_provider: ^1.6.18
   percent_indicator: ^2.1.5
   marquee: ^1.5.2
+  cool_alert: ^1.0.1
+  badges: ^1.1.3
 
 dev_dependencies:
   flutter_test:
@@ -55,6 +57,7 @@ flutter:
 
     - assets/images/homescreens/fitnessapp/
     - assets/images/homescreens/muziko/
+    - assets/images/homescreens/shoppingScreen/
 
 
 
