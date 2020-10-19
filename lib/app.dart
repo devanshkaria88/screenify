@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:screenify/Screens/BottomSheetScreens/bottomsheet_screenlist.dart';
 import 'package:screenify/Screens/ProfileScreens/profilecreenslist.dart';
 import 'Screens/HomePage.dart';
 import 'Screens/HomeScreens/homescreenslist.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         'loginscreens' : (context) => LoginScreensList(ListName: 'Login Screens'),
         'profilescreens' : (context) => ProfileScreensList(ListName: 'Profile Screens'),
         'drawerscreen' : (context) => HomeScreensList(ListName: 'App Drawers'),
-        'bottomsheetsscreen' : (context) => HomeScreensList(ListName: 'Bottom Sheets'),
+        'bottomsheetsscreen' : (context) => BottomSheetScreenList(ListName: 'Bottom Sheets'),
       },
     );
   }

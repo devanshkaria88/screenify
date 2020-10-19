@@ -52,6 +52,8 @@ flutter:
     - assets/images/
     - assets/images/homescreens/
     - assets/images/loginscreens/
+    - assets/images/profilescreens/
+    - assets/images/bottomsheetscreens/
 
 #      <--------------------------  Add HomeScreen related sub-folders here --------------------------->
 
