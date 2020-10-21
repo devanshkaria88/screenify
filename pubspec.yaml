@@ -48,12 +48,20 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  fonts:
+    - family: OCR
+      fonts:
+        - asset: fonts/OCR_A_Regular.ttf
+
   assets:
     - assets/images/
     - assets/images/homescreens/
     - assets/images/loginscreens/
+    - assets/images/profilescreens/
+    - assets/images/bottomsheetscreens/
 
-#      <--------------------------  Add HomeScreen related sub-folders here --------------------------->
+    #      <--------------------------  Add HomeScreen related sub-folders here --------------------------->
 
     - assets/images/homescreens/fitnessapp/
     - assets/images/homescreens/muziko/
@@ -61,13 +69,17 @@ flutter:
 
 
 
-#      <--------------------------  Add LoginScreen related sub-folders here --------------------------->
+    #      <--------------------------  Add LoginScreen related sub-folders here --------------------------->
 
     - assets/images/loginscreens/muziko/
 
-#      <--------------------------  Add ProfileScreen related sub-folders here --------------------------->
+    #      <--------------------------  Add ProfileScreen related sub-folders here --------------------------->
 
     - assets/images/profilescreens/designerportfolio/
+
+    #      <--------------------------  Add BottomSheet screen related sub-folders here --------------------------->
+
+    - assets/images/bottomsheetscreens/quickpay/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
