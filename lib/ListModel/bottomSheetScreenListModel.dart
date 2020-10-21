@@ -3,5 +3,5 @@ import 'package:screenify/Screens/ProfileScreens/DesignerPortfolio/DesignerPortf
 import 'package:screenify/constants.dart';
 
 List<Map<String, dynamic>> BottomSheetScreens = [
-  {'screen': QuickPay(), 'name': "QuickPay", 'image': '$profilescreens/designerportfolio/thumb.jpg'}
+  {'screen': QuickPay(), 'name': "QuickPay", 'image': bottomsheetscreens_assets+'quickpay/thumb.jpg'}
 ];
